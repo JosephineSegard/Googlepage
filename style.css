@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap');
+
+body {
+        background-color: #E5E5E5;
+
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 1000px;
+    margin: 20 auto;
+    box-shadow: 0px 0px 12px #aaa;
+}
+
+.header {
+    width: 1000px;
+    height: 35%;
+    position:fixed;
+    margin-bottom:100px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+ 
+}
+
+h1 {
+    text-align:end;
+    color:black;
+    position:relative;
+    font-size:20px;
+    margin-bottom: 0;
+    margin-top: 0
+    
+}
+
+h2 {
+    text-align:start;
+    color:black;
+    position:relative;
+    font-size:20px;
+    margin-bottom: 0;
+    margin-top: 0
+
+}
+hr {
+    color: black;
+    width: 150%;
+    opacity: 20%;
+
+}
+.logoGooglze.png {
+    text-align: center;
+    margin-bottom:20px;
+    margin-top:20px;
+    width: 100px;
+    height: 50px;
+}
+
+
+.text{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-bottom: 20px;
+}
+
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+   
+}
+
+.styled:hover {
+    background-color: lightgrey;
+}
+
+.label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    height: 100px
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
